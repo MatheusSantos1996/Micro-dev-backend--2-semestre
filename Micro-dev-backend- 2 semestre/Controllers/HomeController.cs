@@ -8,7 +8,7 @@ namespace Micro_dev_backend__2_semestre.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+           return RedirectToAction("Index", "Veiculos");
         }
 
         public IActionResult Privacy()
